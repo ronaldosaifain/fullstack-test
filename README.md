@@ -10,18 +10,10 @@ Create a micro-service able to accept RESTful requests receiving as parameter a 
 
 Also create a simple frontend which sends the location to the microservice and shows the music suggestions. Use any language and framework you want (JQuery, ReactJS, Angular etc).
 
-### Observations
- - Location can be represented as city name or lat long coordinates.
- - A playlist can be represented as a list of music names.
-
-## Business rules
-* If temperature (celcius) is above 30 degrees, suggest tracks for party
-* In case temperature is between 15 and 30 degrees, suggest pop music tracks
-* If it's a bit chilly (between 10 and 14 degrees), suggest rock music tracks
-* Otherwise, if it's freezing outside, suggests classical music tracks
-
-## Hints
-You can make usage of OpenWeatherMaps API (https://openweathermap.org) to fetch temperature data and Spotify (https://developer.spotify.com) to suggest the tracks as part of the playlist.
+##How to run it
+1 - Install backend, frontend and auth dependencies by running npm i on their directories.
+2 - Start the backend(/back)npm start run and auth(/auth/authorization)node app.js server on their directories.
+3 - Start the frontend serve (front) npm run serve
 
 ## Submission
 Fork this project and share it with your interviwer
