@@ -11,9 +11,12 @@ Create a micro-service able to accept RESTful requests receiving as parameter a 
 Also create a simple frontend which sends the location to the microservice and shows the music suggestions. Use any language and framework you want (JQuery, ReactJS, Angular etc).
 
 ## How to run it
-* 1 - Install backend, frontend and auth dependencies by running npm i on their directories.
-* 2 - Start the backend(/back)**npm start run** and auth(/auth/authorization) **node app.js** server on their directories.
-* 3 - Start the frontend serve (front) **npm run serve**
+Requirements:
+Stable version of nodeJS.
+
+* 1 Run the auth.bat file. 
+* 2 Expect to install all dependencies and services up. 
+* 3 Accessing http://localhost:8080/
 
 ## Submission
 Fork this project and share it with your interviwer
