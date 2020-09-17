@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-  <b-form>
-     <b-col md="6" sm="6" align="center" inline>
+  <b-form align="center">
+     <b-col md="6" sm="6" align="center">
            <b-form-input type="text" v-model="cidade.nome" placeholder="Informe o nome da Cidade..." />
                   <span>OU</span>
            <b-form-input type="text" v-model="cidade.lat" placeholder="Informe a Latitude da Cidade..." />
@@ -88,7 +88,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
