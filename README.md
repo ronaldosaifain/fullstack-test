@@ -14,7 +14,7 @@ Also create a simple frontend which sends the location to the microservice and s
 Requirements:
 Stable version of nodeJS.
 
-* 1 Necessary the path start with C:\Users\youruser\
+* 1 Necessary the path starts with C:\Users\youruser\
 * 1 Run the auth.bat file. 
 * 2 Expect to install all dependencies and services up. 
 * 3 Accessing http://localhost:8080/
